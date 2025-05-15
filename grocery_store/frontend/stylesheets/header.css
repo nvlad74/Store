@@ -1,0 +1,25 @@
+
+header, footer {
+    position: relative;
+    /*--------------------------------------*/
+
+    margin: 1.2%;
+    /*--------------------------------------*/
+
+    border: 2.5pt solid var(--frame_color);
+    border-radius: 5pt;
+}
+
+header {
+    height: 10vh;
+}
+
+footer {
+    height: 85vh;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
