@@ -1,0 +1,37 @@
+
+:root {
+    --bg_color_border: #6d4419;
+    --bg_color_light: #e5e5e5;
+    --bg_color_dark: #212121;
+    /*--------------------------------------*/
+
+    --bg_color_selected: #5500ff;
+    /*--------------------------------------*/
+
+    --fg_color_border: #3b240d;
+    --fg_color_team_light: #16c100;
+    --fg_color_team_dark: #d20000;
+    /*--------------------------------------*/
+
+    --font_family: 'Times New Roman';
+    --font_size_border: 40pt;
+    --font_size_chess_pieces: 56pt;
+    /*--------------------------------------*/
+
+    --cell_size: 72pt;
+}
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    /*--------------------------------------*/
+
+    cursor: default;
+    /*--------------------------------------*/
+
+    background-color: #cacaca;
+    /*--------------------------------------*/
+
+    user-select: none;
+}
